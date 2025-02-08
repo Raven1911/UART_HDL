@@ -55,3 +55,44 @@
 > __ASM__:
 > 
 > ![alt text](image/15.png)
+>
+
+# Demo on the Arty Z7 board
+
+>```
+> List:
+> - Module USB to TTL
+> - Analyzer
+> - Arty Z7
+> - Putty Software
+>```
+> ![alt text](image/1.jpg)
+> 
+> ![alt text](image/2.jpg)
+> 
+> ![alt text](image/3.jpg)
+> 
+> ![alt text](image/4.jpg)
+>
+> __Laptop is transmitting "hi" to Z7__
+> 
+> ![alt text](image/1.1.png)
+>
+> __Z7 is transmitting "hi" to Laptop__
+> 
+> ![alt text](image/4.1.png)
+>
+> ![alt text](image/2.1.png)
+> 
+> __Laptop is transmitting "abcd" to Z7__
+> 
+> ![alt text](image/5.1.png)
+>
+> __Z7 is transmitting "abcd" to Laptop__
+> 
+> ![alt text](image/7.1.png)
+>
+> ![alt text](image/6.1.png)
+
+# Reference
+> Dr. Anas Salah Eddin
