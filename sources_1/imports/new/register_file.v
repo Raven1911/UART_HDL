@@ -32,7 +32,7 @@ module register_file #(parameter ADDR_WIDTH = 3, DATA_WIDTH = 8)(
     );
 
     //memory buffer
-    reg [DATA_WIDTH -1 : 0] memory [0 : 2 ** ADDR_WIDTH - 1];
+    reg [DATA_WIDTH - 1 : 0] memory [0 : (2**ADDR_WIDTH) - 1];
 
     //wire operation
     always @(posedge clk) begin
