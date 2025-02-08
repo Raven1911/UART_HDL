@@ -24,3 +24,15 @@
 > ![alt text](image/6.png)
 >
 * Oversampling
+> ```
+> 8-bits Data, 1-bit Stop. (Parity Bit Option Available)
+> ```
+> ![alt text](image/10.png)
+
+> ![alt text](image/11.png)
+> ![alt text](image/12.png)
+>
+# UART Construction
+> ![alt text](image/13.png)
+
+* Baud Rate Generator
