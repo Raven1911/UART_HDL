@@ -36,7 +36,8 @@
 > ![alt text](image/13.png)
 
 * Baud Rate Generator
-> Formula:
+> __Formula:__
+> 
 > ![alt text](image/14.png)
 > ```
 > Explanation of Parameters:
