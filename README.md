@@ -50,3 +50,8 @@
 >   16: A fixed factor in UART (since UART samples each bit 16 times to ensure accuracy)
 >
 > Example: f = 100Mhz, b = 9600 bits/second => v = 650 (we typically round to the nearest integer)
+
+* UART Receiver
+> __ASM__:
+> 
+> ![alt text](image/15.png)
