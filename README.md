@@ -36,3 +36,16 @@
 > ![alt text](image/13.png)
 
 * Baud Rate Generator
+> Formula:
+> ![alt text](image/14.png)
+> ```
+> Explanation of Parameters:
+>   v: Value to be loaded into the Baud Rate Generator Register(dvsr)
+>
+>   f: System clock frequency
+>
+>   b: Desired baud rate
+>
+>   16: A fixed factor in UART (since UART samples each bit 16 times to ensure accuracy)
+>
+> Example: f = 100Mhz, b = 9600 bits/second => v = 650 (we typically round to the nearest integer)
