@@ -142,7 +142,8 @@ module uart_axi_lite_tb;
         axi_lite_read(32'h00000003);
         #100
         axi_lite_read(32'h00000003);
-
+        #100
+        axi_lite_read(32'h00000003);
         // // Simulate RX data (0xAA)
         // send_uart_rx(8'hAA);
 
