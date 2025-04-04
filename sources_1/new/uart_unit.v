@@ -23,7 +23,7 @@
 module uart_unit
     #(parameter     DBIT = 8,       // databit
                     SB_TICK = 16,   // tick for stop bits
-                    FIFO_W = 2      // addr bits of FIFO
+                    FIFO_W = 3      // addr bits of FIFO
     ) 
     (
         clk,
